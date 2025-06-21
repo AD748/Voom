@@ -24,6 +24,7 @@ const config = {
           2: '#161925',
           3: '#252A41',
           4: '#1E2757',
+          5: '#3D3D3E',
         },
         blue: {
           1: '#0E78F9',
@@ -42,6 +43,9 @@ const config = {
         yellow: {
           1: '#F9A90E',
         },
+        red: {
+          1: '#DF5B5B',
+        },
       },
       keyframes: {
         'accordion-down': {
@@ -58,7 +62,7 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        hero: "url('/images/hero-background.png')",
+        hero: "url('/images/meeting.jpg')",
       },
     },
   },

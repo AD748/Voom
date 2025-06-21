@@ -103,7 +103,7 @@ const MeetingTypeList = () => {
         <MeetingModal
           isOpen={meetingState === 'isScheduleMeeting'}
           onClose={() => setMeetingState(undefined)}
-          title="Create Meeting"
+          title="Create a Meeting"
           handleClick={createMeeting}
         >
           <div className="flex flex-col gap-2.5">
@@ -152,7 +152,7 @@ const MeetingTypeList = () => {
       <MeetingModal
         isOpen={meetingState === 'isJoiningMeeting'}
         onClose={() => setMeetingState(undefined)}
-        title="Type the link here"
+        title="Enter the link here"
         className="text-center"
         buttonText="Join Meeting"
         handleClick={() => router.push(values.link)}

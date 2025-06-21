@@ -1,6 +1,6 @@
 <!-- ## <a name="introduction">🤖 Introduction</a> -->
 
-Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
+Built with the latest Next.js and TypeScript, this project is essentially a video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -53,8 +53,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/AD748/Yoom.git
-cd Yoom
+git clone https://github.com/AD748/Voom.git
+cd Voom
 ```
 
 **Installation**
@@ -80,7 +80,7 @@ NEXT_PUBLIC_STREAM_API_KEY=
 STREAM_SECRET_KEY=
 ```
 
-Replace the placeholder values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [getstream website](https://getstream.io/)
+Replace the empty values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [getstream website](https://getstream.io/)
 
 **Running the Project**
 
